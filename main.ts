@@ -9,8 +9,8 @@ input.onButtonPressed(Button.AB, function () {
     }
 })
 input.onButtonPressed(Button.B, function () {
-    for (let index = 0; index <= 5; index++) {
-        basic.showNumber(index * 2)
+    for (let index = 0; index <= 4; index++) {
+        basic.showNumber(2 + index * 2)
     }
 })
 basic.forever(function () {
